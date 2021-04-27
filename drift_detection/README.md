@@ -32,7 +32,9 @@
 - its very diffuclt to measure, relation between features & target changes 
 - ex: they way user was mapping any claim is changed 
 
-# Internal Covariate Shift
+## Internal Covariate Shift
 
 - suspected influence of covariance shift in the hidden layers of deep neural networks
+- the way we normalize input data , similar way we need to normalize input to hidden layer 
+- batch normalization layer helps to reduce training time & help in hyperparemeter optimization
 
